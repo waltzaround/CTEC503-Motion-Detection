@@ -1,36 +1,42 @@
+
+//Project Cronut
+//Plays music based on quantity and length of motion detected by a camera.
+//Outputs music and 360 degree rotating video onto a screen.
+
+// With some code from:
 // Learning Processing
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 16-13: Simple motion detection
+// Some code borrowed from Example 16-13: Simple motion detection
 
-import processing.video.*;
-import ddf.minim.*;
+import processing.video.*;  //import video library to allow video input/output
+import ddf.minim.*; // we need an audio library....
 
 //music prerequisites
-Minim minim;
-AudioPlayer sound1;
-AudioPlayer sound2;
-AudioPlayer sound3;
-AudioPlayer sound4;
-AudioPlayer sound5;
-AudioPlayer sound6;
-AudioPlayer sound7;
-AudioPlayer sound8;
-AudioPlayer sound9;
-AudioPlayer sound10;
-AudioPlayer currentlyPlaying;
+Minim minim; // declare minim as minim
+AudioPlayer sound1; // declaring sound1 as an audioplayer
+AudioPlayer sound2; // declaring sound2
+AudioPlayer sound3; // declaring sound3
+AudioPlayer sound4; // declaring sound4
+AudioPlayer sound5; // declaring sound5
+AudioPlayer sound6; // declaring sound6
+AudioPlayer sound7; // declaring sound7
+AudioPlayer sound8; // declaring sound8
+AudioPlayer sound9; // declaring sound9
+AudioPlayer sound10; // declaring sound10
+AudioPlayer currentlyPlaying; // declaring audio that is currently playing
 AudioInput input;
 
 // Variable for capture device
-Capture video;
+Capture video; //ok computer, go get some video from the pc camera
 // Previous Frame
-PImage prevFrame;
-PImage turnFrame;
-PImage turnFrame1;
-PImage turnFrame2;
-PFont f;
-float theta = 80;
+PImage prevFrame; // draw the previous frame
+PImage turnFrame; // draw the frame before the previous frame
+PImage turnFrame1; // draw the frame before the above frame
+PImage turnFrame2; // draw the frame before the above frame
+PFont f; // declaring f as a font and to use f font
+float theta = 80; // declare theta as 80
 //int varInt = 0;
 float varFloat = 1;
 long timer ;
@@ -47,8 +53,8 @@ int totalTime4 = 25000; // 25 second timer
 int totalTime5 = 30000; // 30 second timer
 int totalTime6 = 60000; // 60 second timer
 
-boolean sketchFullScreen() {
-  return true;
+boolean sketchFullScreen() { // ok computer, whatever comes next decides whether its fullscreen or not
+  return true; // make it fullscreen
 }
 
 
