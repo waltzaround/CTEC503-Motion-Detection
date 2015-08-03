@@ -38,12 +38,12 @@ PImage turnFrame2; // draw the frame before the above frame
 PFont f; // declaring f as a font and to use f font
 float theta = 80; // declare theta as 80
 //int varInt = 0;
-float varFloat = 1;
-long timer ;
-long timer1 ;
-long timer2 ;
-long timer3 ;
-long interval = 50;
+float varFloat = 1; // declare varFloat as a float and assign it the value 1
+long timer ; // declare timer as a long datatype
+long timer1 ; // declare timer1 as a long datatype
+long timer2 ; // declare timer2 as a long datatype
+long timer3 ; // declare timer3 as a long datatype
+long interval = 50; // declare interval as a long datatype and assign it the value 50
 int savedTime;
 int totalTime = 5000; // 5 second timer
 int totalTime1 = 10000; // 10 second timer
