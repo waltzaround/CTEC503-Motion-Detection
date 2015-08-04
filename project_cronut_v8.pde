@@ -85,10 +85,10 @@ void setup() {
   //End Timer
 
   //begin music setup 
-  minim = new Minim(this);
-  sound1 = minim.loadFile("Kick.wav");
-  sound4 = minim.loadFile("SynthUpHigh.wav");
-  sound2 = minim.loadFile("Snare01.wav");
+  minim = new Minim(this); 
+  sound1 = minim.loadFile("Kick.wav"); // sound1 is a minim loaded with kick.wav in the data folder
+  sound4 = minim.loadFile("SynthUpHigh.wav"); // sound1 is a minim loaded with SynthUpHigh.wav in the data folder
+  sound2 = minim.loadFile("Snare01.wav"); // sound2 is a minim loaded with SynthUpHigh.wav in the data folder
   sound3 = minim.loadFile("TweekySynth.wav");
   sound5 = minim.loadFile("WampyPitchSound.wav");
   sound6 = minim.loadFile("KickBig.wav");
