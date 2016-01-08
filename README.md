@@ -8,3 +8,11 @@ Creates a pseudo-pointcloud by detecting changes in pixels from a webcam video i
 If sufficient movement is detected, plays music. Changes music depending on intensity, and duration of movement.
 
 You should dance in front of it.
+
+
+
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
