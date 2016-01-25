@@ -6,11 +6,7 @@ Written for the CTEC503 Creative Technologies Studio II Paper at Auckland Univer
 
 ##Setup Instructions
 
-1.  Run project
-2.  Go to `Assets/test.unity`
-3.	Open test.unity and go to `File -> Build and Run`.
-4.	Run the created file.
-5.	Use WASD for movement and move mouse to look around.
+TBC
 
 
 ## Licence
