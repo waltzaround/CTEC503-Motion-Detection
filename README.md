@@ -1,6 +1,6 @@
 # CTEC503 Interactive Motion Detection
 
-Project that creates a 2D pointcloud by detecting changes in pixels from a webcam video input. If sufficient movement is detected, the app plays music. Changes music depending on intensity, and duration of movement. Project was developed with the Processing Framework. You should try dancing in front of it for a few minutes...
+Project that reads webcam input by detecting color changes in pixels. If sufficient movement is detected in a pixel, it displays it as black and plays music depending on intensity, and duration of movement. Project was developed with the Processing Framework. You should try dancing in front of it for a few minutes...
 
 Written for the CTEC503 Creative Technologies Studio II Paper at Auckland University of Technology
 
