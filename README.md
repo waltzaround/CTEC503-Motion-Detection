@@ -6,7 +6,10 @@ Written for the CTEC503 Creative Technologies Studio II Paper at Auckland Univer
 
 ##Setup Instructions
 
-TBC
+1.  Make sure you have [processing](https://processing.org/) installed
+2.  Navigate to `motion/motion.pde'
+3.  Either press the big play button on the top left, do whatever you want to the code, or compile it into an executable.
+4.  Dance!
 
 
 ## Licence
