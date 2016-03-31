@@ -53,9 +53,9 @@ int totalTime4 = 25000; // 25 second timer
 int totalTime5 = 30000; // 30 second timer
 int totalTime6 = 60000; // 60 second timer
 
-boolean sketchFullScreen() { // ok computer, whatever comes next decides whether its fullscreen or not
-  return true; // make it fullscreen
-}
+//boolean sketchFullScreen() { // ok computer, whatever comes next decides whether its fullscreen or not
+//  return true; // make it fullscreen
+//}
 
 
 // How different must a pixel be to be a "motion" pixel
@@ -338,4 +338,3 @@ void draw() {
   }// end >26k movement if statement
   println(moveQuantity); // debugging
 }// end void draw
-
